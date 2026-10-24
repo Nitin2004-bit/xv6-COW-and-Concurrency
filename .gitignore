@@ -1,0 +1,27 @@
+# Object and binary files
+*.o
+*.d
+*.out
+*.asm
+*.sym
+
+# xv6 build artifacts
+fs.img
+xv6.img
+.gdbinit
+initial-xv6/src/kernel/kernel
+initial-xv6/src/kernel/kernel.asm
+initial-xv6/src/kernel/kernel.sym
+initial-xv6/src/user/_*
+initial-xv6/src/mkfs/mkfs
+
+# Concurrency output logs
+concurrency/*_usage.txt
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/ipch/
