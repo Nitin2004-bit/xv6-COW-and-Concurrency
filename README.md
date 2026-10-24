@@ -1,4 +1,4 @@
-# OSN Mini Project 3: xv6 Copy-on-Write (COW) Fork & Multi-Threaded Concurrency
+# xv6 Copy-on-Write (COW) Fork & Multi-Threaded Concurrency
 
 [![Operating Systems and Networks](https://img.shields.io/badge/Course-OSN%20Monsoon%202024-blue.svg)](https://github.com/OSN-Monsoon-2024)
 [![Language: C](https://img.shields.io/badge/Language-C-00599C.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
@@ -65,7 +65,7 @@ Modern operating systems defer costly operations until strictly necessary ("lazy
 ## Repository Structure
 
 ```text
-OSN-Mini-Project-3/
+xv6-COW-and-Concurrency/
 ├── README.md                           # Master project documentation
 ├── .gitignore                          # Build artifacts and temporary file filters
 ├── concurrency/                        # Concurrency and parallel processing module
